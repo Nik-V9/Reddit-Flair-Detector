@@ -84,19 +84,25 @@ At the time of project development, the flairs on Subreddit India were:
 The Analysis Plots are as follows:
 
 ![](static/Images/Github/Frequency_1.png)
-![]static/Images/Github/Frequency_2.png
-![]static/Images/Github/Frequency_3.png
-![]static/Images/Github/Frequency_4.png
-![]static/Images/Github/Frequency_5.png
-![]static/Images/Github/Frequency_6.png
-![]static/Images/Github/Frequency_7.png
-![]static/Images/Github/Frequency_8.png
-![]static/Images/Github/Frequency_9.png
-![]static/Images/Github/Frequency_10.png
-![]static/Images/Github/Frequency_11.png
-![]static/Images/Github/Frequency_12.png
+![](static/Images/Github/Frequency_2.png)
+![](static/Images/Github/Frequency_3.png)
+![](static/Images/Github/Frequency_4.png)
+![](static/Images/Github/Frequency_5.png)
+![](static/Images/Github/Frequency_6.png)
+![](static/Images/Github/Frequency_6.png)
+![](static/Images/Github/Frequency_7.png)
+![](static/Images/Github/Frequency_8.png)
+![](static/Images/Github/Frequency_9.png)
+![](static/Images/Github/Frequency_10.png)
+![](static/Images/Github/Frequency_11.png)
+![](static/Images/Github/Frequency_12.png)
 
 Furthermore, a stastical analysis on metafeatures was done in EDA notebook.
+
+## XLNet Model Training and Validation
+
+Notebook Part-3 namely Reddit-Flair-Detector contains the code for model training and detailed analysis of the validation and test results. The model XLNet showed very good performance on the task of Reddit Flair Detection. Reddit Flair Detection comes under the domain of Text Classification. The approach to the task was to use Transfer Learning on Language Models.
+
 ## Automated Testing Endpoint
 The Web app has been designed to have an API endpoint called '/automated_testing' to test the model performance through a POST request. The Web API has been designed using Flask. The following code can be used to send a POST request to the website:
 ```
@@ -123,3 +129,4 @@ The code was deployed through GCP using App Engine with the following code:
 gcloud init
 gcloud app deploy app.yaml --project project_name
 ```
+### Thanks for checking out the repo!
