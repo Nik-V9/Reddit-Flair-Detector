@@ -83,7 +83,7 @@ At the time of project development, the flairs on Subreddit India were:
 
 The Analysis Plots are as follows:
 
-![]static/Images/Github/Frequency_1.png
+![](static/Images/Github/Frequency_1.png)
 ![]static/Images/Github/Frequency_2.png
 ![]static/Images/Github/Frequency_3.png
 ![]static/Images/Github/Frequency_4.png
