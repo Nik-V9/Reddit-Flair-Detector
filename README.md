@@ -63,7 +63,7 @@ The structure of the repository is represented below :
 ```
 ## Dockerfile & Requirements.txt
 
-The github repo is provided with a dockerfile and requirements.txt file to recreate the app deployed in the project. The dockerfile creates a virtual environment with required python version and packages for web app deployment. All the dependencies required for the code in the repo can be installed using requirements.txt.
+The github repo is provided with a dockerfile and requirements.txt file to recreate the app deployed in the project. The dockerfile creates a virtual environment with required python version and packages for web app deployment. The required Python version is 3.6.X. All the dependencies required for the code in the repo can be installed using requirements.txt.
 ```
 pip install -q -r requirements.txt
 ```
