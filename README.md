@@ -1,6 +1,6 @@
 # Reddit Flair Detection
 
-Hi, Nice to meet you! This is the Github repository for the Web Application Fetch the Flair. This project is based on flair detection of a Subreddit India post. A flair is the category of a Reddit post used for filtering purposes. The project uses PRAW (Python Reddit API Wrapper) and Big Data Query to obtain the dataset for training.  Transfer learning is used to train the classification model for this project. The Deep Learning model  used is XLNet. For model training and validation Ktrain, an advanced python wrapper for Keras (Tensorflow 2.0), was used. This Project has been developed as a task for MIDAS-IIITD. The development phase is divided into 5 phases, namely :
+Hi, Nice to meet you! This is the Github repository for the Web Application Fetch the Flair. This project is based on flair detection of a Subreddit India post. A flair is the category of a Reddit post used for filtering purposes. The project uses PRAW (Python Reddit API Wrapper) and Big Data Query to obtain the dataset for training.  Transfer learning is used to train the classification model for this project. The Deep Learning model  used is XLNet. For model training and validation Ktrain, an advanced python wrapper for Keras (Tensorflow 2.0), was used. The development phase is divided into 5 phases, namely :
 
  1. Reddit Web Scraping
  2. Exploratory Data Analysis and Pre-processing
