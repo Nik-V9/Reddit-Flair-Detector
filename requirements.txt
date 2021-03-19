@@ -92,7 +92,7 @@ seqeval==0.0.12
 six==1.14.0
 syntok==1.2.2
 tensorboard==2.1.1
-tensorflow==2.3.1
+tensorflow==2.4.0
 tensorflow-datasets==2.1.0
 tensorflow-estimator==2.1.0
 tensorflow-metadata==0.21.2
